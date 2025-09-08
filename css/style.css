@@ -520,18 +520,17 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    .carousel {
+        min-height: 100px; /* Minimum height for phones */
+    }
+    .carousel .carousel-item {
+        min-height: 100px;
+    }
+    .carousel .carousel-img {
+        min-height: 100px;
+    }
     .carousel .carousel-text h1 {
         font-size: 20px;
-    }
-    
-    .carousel .carousel-text p {
-        font-size: 12px;
-    }
-    
-    .carousel .carousel-text .btn {
-        padding: 6px 15px; /* Only for phones */
-        font-size: 12px;   /* Only for phones */
-        letter-spacing: 0;
     }
 }
 
