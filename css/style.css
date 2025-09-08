@@ -530,7 +530,16 @@ a:focus {
     .carousel .carousel-text h1 {
         font-size: 20px;
     }
+    .carousel .carousel-text p {
+        font-size: 12px; /* Restore paragraph size */
+    }
+    .carousel .carousel-text .btn {
+        padding: 4px 10px; /* Smaller padding for phones */
+        font-size: 10px;   /* Smaller font for phones */
+        letter-spacing: 0; /* Unchanged */
+    }
 }
+
 
 
 /*******************************/
