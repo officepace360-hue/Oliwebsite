@@ -497,11 +497,11 @@ a:focus {
         font-size: 16px;
     }
     
-  .carousel .carousel-text .btn {
-    padding: 6px 15px; /* Changed */
-    font-size: 14px;   /* Temporarily unchanged here */
-    letter-spacing: 0; /* Unchanged */
-}
+    .carousel .carousel-text .btn {
+        padding: 12px 30px; /* Restored original */
+        font-size: 15px;    /* Restored original */
+        letter-spacing: 0;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -510,25 +510,25 @@ a:focus {
     }
     
     .carousel .carousel-text .btn {
-        padding: 10px 25px;
-        font-size: 15px;
+        padding: 10px 25px; /* Restored original */
+        font-size: 15px;    /* Restored original */
         letter-spacing: 0;
     }
 }
 
 @media (max-width: 575.98px) {
     .carousel .carousel-text h1 {
-        font-size: 20px; /* Changed */
+        font-size: 20px;
     }
     
     .carousel .carousel-text p {
-        font-size: 12px; /* Added */
+        font-size: 12px;
     }
     
     .carousel .carousel-text .btn {
-        padding: 6px 15px; /* Changed */
-        font-size: 12px;   /* Changed */
-        letter-spacing: 0; /* Unchanged */
+        padding: 6px 15px; /* Only for phones */
+        font-size: 12px;   /* Only for phones */
+        letter-spacing: 0;
     }
 }
 
